@@ -1,0 +1,1 @@
+This repository demonstrates a common bug in Solidity smart contracts: a missing ownership check in the `transferOwnership` function.  The bug allows any address to transfer ownership of the contract, bypassing the intended access control. The solution shows how to fix the bug by adding the necessary `require` statement.
